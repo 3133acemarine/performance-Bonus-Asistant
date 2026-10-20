@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>성과상여금 도우미</title>
+<meta name="description" content="성과상여금 자료 취합·점검, 등급·지급액 산정, 개인별 산정근거표 생성 도구">
+<meta name="theme-color" content="#1d4ed8">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<style>
+/*__STYLE__*/
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand" data-act="home" title="처음 화면으로">
+    <span class="logo">₩</span> 성과상여금 도우미
+  </div>
+  <nav id="stepper" class="stepper"></nav>
+  <div class="top-right">
+    <span id="roleBadge" class="badge"></span>
+    <span id="netStatus" class="badge"></span>
+  </div>
+</header>
+
+<div id="updateBanner" class="update-banner" hidden>
+  <b>새 버전이 있습니다.</b>
+  <span>새로고침하면 작업 중인 자료가 모두 사라집니다. 필요한 파일을 먼저 저장하세요.</span>
+  <button class="btn primary sm" data-act="applyUpdate">새로고침</button>
+</div>
+
+<main id="main"></main>
+
+<footer class="footer">
+  <span>버전 <b id="appVersion"></b></span>
+  <span id="runMode"></span>
+  <span>모든 자료는 이 PC의 브라우저 메모리에서만 처리되며 어디에도 저장·전송되지 않습니다. 앱을 닫으면 사라집니다.</span>
+</footer>
+
+<div id="toast" class="toast" hidden></div>
+
+<script>
+/*__VENDOR_XLSX__*/
+</script>
+<script>
+/*__VENDOR_JSPDF__*/
+</script>
+<script>
+/*__VENDOR_JSZIP__*/
+</script>
+<script>window.__NANUM_FONT = "/*__FONT__*/";</script>
+<script>
+/*__SAMPLES__*/
+</script>
+<script>
+/*__APP__*/
+</script>
+</body>
+</html>
